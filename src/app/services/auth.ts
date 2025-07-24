@@ -10,7 +10,7 @@ import { environments } from '../environments';
 export class Auth {
   constructor(private http :HttpClient){}
 
-  baseUrl : string = environments.baseUrl;
+  baseUrl : string = environments.baseUrlProd;
 
   // login(data: LoginRequest) : Observable<LoginResponse>{
   //      return this.http.post<LoginResponse>(this.baseUrl + '/Auth/user-login', data);
